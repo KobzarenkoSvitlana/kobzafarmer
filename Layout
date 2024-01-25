@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваш сайт</title>
+    <!-- Підключення стилів (CSS) -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Шапка сайту з Лого -->
+    <header>
+        <img src="your_logo.png" alt="Лого">
+    </header>
+
+    <!-- Навігаційне меню -->
+    <nav>
+        <ul>
+            <li><a href="#about">Про нас</a>
+                <ul>
+                    <li><a href="#history">Історія господарства</a></li>
+                    <li><a href="#terms">Умови загрузки</a></li>
+                    <li><a href="#faq">Питання-відповіді</a></li>
+                </ul>
+            </li>
+            <li><a href="#shop">Магазин</a></li>
+            <li><a href="#contacts">Контакти</a></li>
+            <li><a href="#" id="langSwitch">Укр</a></li>
+            <li>
+                <a href="#" id="accountDropdown">user@email.com</a>
+                <ul>
+                    <li><a href="#settings">Налаштування</a></li>
+                    <li><a href="#logout">Вихід</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Зміст сторінки -->
+    <main>
+        <!-- Тут буде зміст сторінки -->
+    </main>
+
+    <!-- Перемикач укр/англ -->
+
+    <script>
+        const langSwitch = document.getElementById('langSwitch');
+        langSwitch.addEventListener('click', () => {
+            // Логіка зміни мови
+            // Можна використовувати JavaScript або відправити запит на сервер для зміни мови
+        });
+    </script>
+
+    <!-- Підключення скриптів або jQuery, якщо необхідно -->
+
+</body>
+
+</html>
